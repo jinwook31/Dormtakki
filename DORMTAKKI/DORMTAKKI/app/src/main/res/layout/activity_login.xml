@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_marginLeft="30dp"
+                android:textSize="18dp"
+                android:textColor="#00CCFF"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:text="학번" />
+
+
+            <EditText
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:id="@+id/StudentNum"
+                android:text="201402000"
+                android:layout_centerHorizontal="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:textColor="#00CCFF"
+                android:layout_height="50dp"
+                android:layout_width="60dp"
+                android:text="핸드폰" />
+
+            <EditText
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:text="01000000000"
+                android:id="@+id/phoneNum"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3">
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Submit"
+                android:textSize="30sp"
+                android:background="#ffffff"
+                android:textColor="#CCCC66" >
+            </Button>
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+</LinearLayout>
+</LinearLayout>

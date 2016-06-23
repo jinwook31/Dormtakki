@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.35">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25">
+            <TextView
+
+                android:id="@+id/textView1"
+                android:layout_marginLeft="30dp"
+                android:textSize="18dp"
+                android:textColor="#00CCFF"
+                android:layout_height="50dp"
+                android:layout_width="60dp"
+                android:text="학교명" />
+
+            <EditText
+                android:layout_marginLeft="50dp"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:text="충남대학교"
+                android:id="@+id/new1item"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25">
+            <TextView
+
+                android:id="@+id/textView2"
+                android:layout_marginLeft="30dp"
+                android:textSize="18dp"
+                android:textColor="#00CCFF"
+                android:layout_height="50dp"
+                android:layout_width="60dp"
+                android:text="동수" />
+
+            <EditText
+                android:layout_marginLeft="50dp"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:text="13동"
+                android:id="@+id/new2item"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25">
+            <TextView
+
+                android:id="@+id/textView3"
+                android:layout_marginLeft="30dp"
+                android:textSize="18dp"
+                android:textColor="#00CCFF"
+                android:layout_height="50dp"
+                android:layout_width="60dp"
+                android:text="학번" />
+
+            <EditText
+                android:layout_marginLeft="50dp"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:text="201400000"
+                android:id="@+id/new3item"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.25">
+            <TextView
+
+                android:id="@+id/textView4"
+                android:layout_marginLeft="30dp"
+                android:textSize="18dp"
+                android:textColor="#00CCFF"
+                android:layout_height="50dp"
+                android:layout_width="60dp"
+                android:text="연락처" />
+
+            <EditText
+                android:layout_marginLeft="50dp"
+                android:layout_width="210dp"
+                android:layout_height="50dp"
+                android:text="00000000000"
+                android:id="@+id/new4item"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3">
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6">
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Submit"
+            android:textSize="30sp"
+            android:background="#ffffff"
+            android:textColor="#CCCC66"
+            style="?android:attr/borderlessButtonStyle">
+        </Button>
+
+</LinearLayout>
+</LinearLayout>

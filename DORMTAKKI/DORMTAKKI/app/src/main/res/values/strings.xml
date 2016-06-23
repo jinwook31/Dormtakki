@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DORMTAKKI</string>
+    <string-array name="school_array">
+        <item>충남대학교</item>
+
+    </string-array>
+    <string name="banner_ad_unit_id">ca-app-pub-2250566871603924/6955395292</string>
+</resources>
