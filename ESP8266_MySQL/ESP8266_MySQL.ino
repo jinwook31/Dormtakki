@@ -4,7 +4,7 @@
 #define SSID    "" 
 #define PASS    ""
 #define DST_IP ""   //MYSQL server address
-SoftwareSerial dbgSerial(11, 10); //RX 11, TX 10
+SoftwareSerial dbgSerial(3, 2); //RX 3, TX 2
 
 void setup(void){  
   //시리얼 포트 초기화    
