@@ -4,7 +4,7 @@
 	
 	$val = $_GET["val"]; $ID = $_GET["ID"];
 	
-	$sqlt "insert into $ID (val, time) values ('$val','Now())')";
+	$sqlt = "insert into $ID (val, time) values ('$val','Now())')";
 	$db_result = mysql_query($sqlt, $link) or die ("Fail to connect Table");
 	
 	echo "Success!";
